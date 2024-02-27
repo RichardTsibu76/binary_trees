@@ -9,22 +9,22 @@
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-binary_tree_t *newNode;
+binary_tree_t *N_node;
 
 /*Dynamically allocating space fot the created node*/
-newNode = (binary_tree_t *)malloc(sizeof(binary_tree_t));
+N_node = (binary_tree_t *)malloc(sizeof(binary_tree_t));
 
-if (newNode == NULL)
+if (N_node == NULL)
 {
 return (NULL);
 }
 
 /* assign values to the properties of the node */
-newNode->parent = parent;
-newNode->n = value;
-newNode->left = NULL;
-newNode->right = NULL;
+N_node->parent = parent;
+N_node->n = value;
+N_node->left = NULL;
+N_node->right = NULL;
 
 /* return a pointer to the node */
-return (newNode);
+return (N_node);
 }
