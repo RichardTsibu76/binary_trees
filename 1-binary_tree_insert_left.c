@@ -19,9 +19,11 @@ binary_tree_t *NEW;
 
 if (!parent)
 return (NULL);
-
+/*Dynamically allocating memory for the node */
 NEW = malloc(sizeof(binary_tree_t));
+
 if (!NEW)
+
 return (NULL);
 NEW->n = value;
 NEW->parent = parent;
