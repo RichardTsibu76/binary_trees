@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- *binary_tree_depth - This is fucntion that measures the depth 
+ *binary_tree_depth - This is fucntion that measures the depth
  *      of a node in a binary tree
  *@tree: A pointer to the root of the root to measure
  *      the depth
- *Return: 0 if tree is Null 
+ *Return: 0 if tree is Null
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
