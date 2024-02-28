@@ -13,6 +13,7 @@ return (0);
 
 if (!tree->left && !tree->right)
 return (1);
-
+/*Recursively calculating the number of leaves*/
 return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 }
+/*i love commenting in my code becuase i frequently revisit the code have */
