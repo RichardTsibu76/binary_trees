@@ -16,7 +16,7 @@ size_t depth = 0;
 
 if (!tree)
 return (0);
-
+/*the while loop traversing pnode of currnt nofe until reaches the root node*/
 while (tree->parent)
 {
 depth++;
