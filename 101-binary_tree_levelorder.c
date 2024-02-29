@@ -20,7 +20,7 @@ btlo_helper(tree, func, lev);
 }
 
 /**
- *btlo_helper - This function goes through 
+ *btlo_helper - This function goes through
  *       a binary tree using post-order traverse
  *@tree: Target
  *@func: A pointer
